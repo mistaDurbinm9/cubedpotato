@@ -11,6 +11,14 @@ html{
 body{
   margin:0;
   min-width: 320px;
+  background-image: url('2DmineBG.png');
+  background-size: cover;
+  font-family: 'Londrina Solid', cursive;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  transition:.5s;
 }
   .head{
     display: flex;
@@ -18,7 +26,7 @@ body{
     height:150px;
     align-items: center;
     justify-content: center;
-    background-color: red;
+    font-size:25px;
   }
     .logo{
       display: flex;
@@ -39,14 +47,41 @@ body{
         align-items: center;
         justify-content: center;
         flex: 1;
-        background-color: green;
       }
-  .content{
+        .but>a:hover{
+          color: #FFF;
+        }
+  .content-wrapper{
+    display:flex;
+    flex-direction:row;
     position: relative;
-    top:60vh;
+    justify-content: center;
+    align-items: center;
+    top:10vh;
     min-height:150px;
-    background-color: blue;
   }
-    .updates{}
-    .server-staus{}
+    .content{
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      width:95vw;
+      box-shadow: 0px 0px 8px 7px rgba(0,0,0,0.6);
+      margin:25px;;
+    }
+      .updates{
+        width:65vw;
+        height:25vh;
+        margin:25px;
+        background-color:#fff;
+        box-shadow: 0px 0px 8px 7px rgba(0,0,0,0.6);
+      }
+      .server-status{
+        width:15vw;
+        height:25vh;
+        margin:25px;
+        background-color:#fff;
+        box-shadow: 0px 0px 8px 7px rgba(0,0,0,0.6);
+      }
   .foot{}
