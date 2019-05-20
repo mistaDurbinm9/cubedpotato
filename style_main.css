@@ -59,6 +59,8 @@ a{
   transition:.5s;
 }
   .head{
+    position: relative;
+    z-index: 99999;
     display: flex;
     flex-direction: row;
     height:75px;
@@ -66,10 +68,12 @@ a{
     justify-content: center;
     font-size: 22px;
     background: rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,.1), 0 3px 6px rgba(0,0,0,.17);
     color: rgba(255, 255, 255, 0.75);
     text-shadow: 0 3px rgba(0, 0, 0, 0.125);
     text-transform: uppercase;
     font-style: italic;
+
   }
     .logo{
       display: flex;
@@ -106,6 +110,9 @@ a{
         .item-active>a:hover{
           color:#ff9d89;
         }
+      .profile-dropdown{
+
+      }
 
   .content-wrapper{
     display:flex;
@@ -121,16 +128,15 @@ a{
       position: relative;
       justify-content: center;
       align-items: center;
-      width:95vw;
+      width:67vw;
       /* box-shadow: 0px 0px 8px 7px rgba(0,0,0,0.6); */
-      margin:25px;;
+      margin:25px;
     }
       .updates{
         width:75vw;
         height:25vh;
         margin:25px;
         background: rgba(59, 59, 80, 0.935);
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         padding:40px;
         color: rgba(255, 255, 255, 0.75);
         font-size:32px;
@@ -142,7 +148,6 @@ a{
         min-height:25vh;
         margin:25px;
         background: rgba(59, 59, 80, 0.935);
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         /* box-shadow: 0px 0px 8px 7px rgba(0,0,0,0.6); */
         overflow:hidden;
       }
@@ -173,16 +178,17 @@ a{
 
       .header h2{
         position:absolute;
-        bottom:0;
+        top:0;
         margin:0;
         font-size: 17px;
-        letter-spacing: 3px;
+        letter-spacing: 1px;
         width:100%;
         padding:0 10px;
         color:#fff;
+        font-weight: lighter;
         text-transform:uppercase;
         pointer-events:none;
-        background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+        background: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
       }
         .icon {
         position: absolute;
