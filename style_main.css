@@ -116,26 +116,26 @@ a{
       }
 
   .content-wrapper{
+    position: relative;
     display:flex;
     flex-direction:row;
-    position: relative;
     justify-content: center;
     align-items: center
     min-height:150px;
   }
     .content{
+      position: relative;
       display: flex;
       flex-direction: row;
-      position: relative;
       justify-content: center;
       align-items: center;
+      min-height:35vh;
       width:67vw;
       /* box-shadow: 0px 0px 8px 7px rgba(0,0,0,0.6); */
-      margin:25px;
     }
       .updates{
         width:75vw;
-        height:25vh;
+        min-height:35vh;
         margin:25px;
         background: rgba(59, 59, 80, 0.935);
         padding:40px;
@@ -146,8 +146,9 @@ a{
       }
       .server-status{
         width:15vw;
-        min-height:25vh;
+        min-height:35vh;;
         margin:25px;
+        padding:25px;
         background: rgba(59, 59, 80, 0.935);
         /* box-shadow: 0px 0px 8px 7px rgba(0,0,0,0.6); */
         overflow:hidden;
@@ -194,7 +195,7 @@ a{
         .icon {
         position: absolute;
         background:#fff;
-        right: 10px;
+        left: 10px;
         top: 135px;
         width: 80px;
         height: 80px;
