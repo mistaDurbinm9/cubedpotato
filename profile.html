@@ -7,6 +7,7 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script src="https://mcapi.us/scripts/minecraft.js"></script>
   <script type="text/javascript" src="javaScript.js"></script>
+  <script type="text/javascript" src="profile-scripts.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Londrina+Solid&display=swap" rel="stylesheet">
   <title>serverWebsite</title>
 </head>
@@ -32,7 +33,16 @@
       <div class="profile-content">
         <div class="profile-image">userName</div>
         <div class="profile-settings">
-          <div class="setting"> <h2>Info</h2> </div> <!-- javascript pop up change picture upload  -->
+          <div class="setting" id="info"> <h2>Info</h2>
+
+            <div class="dropdown" id="info-dropdown">
+              <div class="dropdown-item" id="info-dropdown-item"> <h2>Date Joined: MM/DD/YYYY</h2> </div>
+              <div class="dropdown-item"> <h2>Number of Forum Posts: ##</h2> </div>
+              <div class="dropdown-item"> <h2></h2> </div>
+            </div>
+
+          </div>
+
           <div class="setting"> <h2>Profile Settings</h2> </div>
           <div class="setting"><h2>Stats</h2></div>
         </div>
