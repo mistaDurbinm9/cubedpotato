@@ -194,7 +194,7 @@ a{
         .icon {
         position: absolute;
         background:#fff;
-        left: 10px;
+        right: 10px;
         top: 135px;
         width: 80px;
         height: 80px;

@@ -20,7 +20,7 @@
 .setting{
   display:flex;
   flex:1;
-  flex-direction: column; 
+  flex-direction: column;
   background-color: #454559;
 
     color: rgba(255, 255, 255, 0.75);
@@ -33,6 +33,10 @@
 .setting h2{
   padding-left:15px;
   font-size:25px;
+}
+.active-setting{
+  background: rgba(0, 0, 0, 0.05);
+  color: #FF7E64;
 }
 .dropdown{
   display:none;
