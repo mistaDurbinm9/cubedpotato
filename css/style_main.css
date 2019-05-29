@@ -193,7 +193,7 @@ a{
       }
         .icon {
         position: absolute;
-        background:#fff;
+        background: rgba(59, 59, 80, 0.935);
         right: 10px;
         top: 135px;
         width: 80px;
@@ -207,6 +207,6 @@ a{
       #rest{
         padding:30px 15px;
         line-height:30px;
-        color:#000d42
+        color: rgba(255, 255, 255, 0.75);
       }
   .foot{}

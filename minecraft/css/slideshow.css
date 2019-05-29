@@ -93,7 +93,7 @@
 	opacity: 0.8;
 	cursor: pointer;
 	z-index: 1000;
-	background: transparent url(images/arrows.png) no-repeat;
+	background: transparent url(../images/arrows.png) no-repeat;
 	-webkit-transition: opacity linear 0.3s;
     -moz-transition: opacity linear 0.3s;
     -o-transition: opacity linear 0.3s;

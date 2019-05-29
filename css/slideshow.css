@@ -1,17 +1,17 @@
+.slideshow-contain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .sp-slideshow {
     position: relative;
-	margin: 10px auto;
-	width: 80%;
-	max-width: 1000px;
-	min-width: 260px;
-	height: 460px;
-	border: 10px solid #fff;
-	border: 10px solid rgba(255,255,255,0.9);
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  height:600px;
+  width:65vw;
+  margin-bottom:25px;
+  margin-top:0;
 }
 
 .sp-content {
-    background: #7d7f72 url(../images/grid.png) repeat scroll 0 0;
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -19,7 +19,6 @@
 }
 
 .sp-parallax-bg {
-    background: url(../images/map.png) repeat-x scroll 0 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -54,9 +53,9 @@
 	z-index: 1000;
 	border: 3px solid #fff;
 	border: 3px solid rgba(255,255,255,0.9);
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    border-radius: 10%;
     -webkit-transition: background-color linear 0.1s;
     -moz-transition: background-color linear 0.1s;
     -o-transition: background-color linear 0.1s;
@@ -142,27 +141,27 @@
 
 input.sp-selector-1:checked ~ .sp-content {
     background-position: 0 0;
-	background-color: #727b7f;
+	background: rgba(59, 59, 80, 0.935);
 }
 
 input.sp-selector-2:checked ~ .sp-content {
     background-position: -100px 0;
-	background-color: #7f7276;
+	background: rgba(59, 59, 80, 0.935);
 }
 
 input.sp-selector-3:checked ~ .sp-content {
     background-position: -200px 0;
-	background-color: #737f72;
+	background: rgba(59, 59, 80, 0.935);
 }
 
 input.sp-selector-4:checked ~ .sp-content {
     background-position: -300px 0;
-	background-color: #79727f;
+	background: rgba(59, 59, 80, 0.935);
 }
 
 input.sp-selector-5:checked ~ .sp-content {
     background-position: -400px 0;
-	background-color: #7d7f72;
+	background: rgba(59, 59, 80, 0.935);
 }
 
 input.sp-selector-1:checked ~ .sp-content .sp-parallax-bg {

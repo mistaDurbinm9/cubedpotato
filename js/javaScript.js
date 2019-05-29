@@ -9,7 +9,7 @@ $.getJSON(url, function(r) {
  }
 var pl = '';
  if(r.players.sample.length > 0 ){ pl = '<br>OP: '+r.players.sample[0].name;  }
-  $('#rest').html(r.description.replace(/§(.+?)/gi, '')+'<br>'+r.players.online+pl+' <b>PLAYING NOW</b> ');
+  $('#rest').html(r.description.replace(/§(.+?)/gi, '')+'<br>'+r.players.online+' <b>PLAYING NOW</b> ');
  $('#favicon').attr('src', r.favicon);
 
 });
